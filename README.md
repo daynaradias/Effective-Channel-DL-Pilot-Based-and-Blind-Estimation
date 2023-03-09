@@ -14,7 +14,7 @@ networks,” in Proc. IEEE Global Commun. Conf., pp. 705-710, Dec. 2022.
 
 run the **'main_vartiations.m'** code to simulate
 
-This code defines the parameter main parameter of the simulation, as the number of UEs, number of APs, pilot length, clustering method, etc.
+This code defines the main parameters of the simulation, as the number of UEs, number of APs, pilot length, clustering method, etc.
 
 The function **'mainFunction.m'** receives these parameters and saves the results in .mat when finished
 
