@@ -19,3 +19,5 @@ This code defines the main parameters of the simulation, as the number of UEs, n
 The function **'mainFunction.m'** receives these parameters and saves the results in .mat when finished
 
 The function **'generateSetup.m'** generate the channels and AP clustering, change the channel parameters like carrier frequency and bandwidth inside it.
+
+The function **'functionComputeSE_downlink_sCSI_pCSI_BE_DLPE.m'** is responsible for performing the estimation of the effective channel, using **_DL pilot-based_** method and **_Blind estimation_**. Different methods for DL pilot assignment is also performed. Different approachs for computing the espectral effeciency can also be selected.
